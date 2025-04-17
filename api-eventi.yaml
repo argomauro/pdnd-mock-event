@@ -1,0 +1,160 @@
+openapi: 3.0.3
+info:
+  title: Eventi
+  contact:
+    email: email@email.it
+    name: Regione Basilicata
+    url: https://www.comune.regione.it/
+  termsOfService: https://www.comune.regione.it/
+  x-summary: Lista di tutti gli Eventi del sito
+  description: '## Eventi Lista di tutti gli Eventi del sito'
+  version: 1.0.0
+tags:
+- name: status
+  description: 'Informazioni sullo stato del servizio'
+servers:
+- url: https://govway.publisys.it/govway/Regione/Eventi/v1
+  description: production
+paths:
+  /status:
+    get:
+      description: status della richiesta
+      operationId: opendata_status_retrieve
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - xml
+      tags:
+      - status
+      responses:
+        '200':
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/Status'
+          description: ''
+  /eventi:
+    get:
+      operationId: Eventi
+      description: Lista di tutti gli Eventi del sito
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - xml
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Eventi'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Eventi'
+          description: ''
+  /eventi/date-search:
+    get:
+      operationId: EventiDateSearch
+      description: Ricerca eventi per intervallo di date
+      parameters:
+      - in: query
+        name: start_date
+        required: true
+        schema:
+          type: string
+          format: date
+        description: 'Data di inizio intervallo (formato: YYYY-MM-DD)'
+      - in: query
+        name: end_date
+        required: true
+        schema:
+          type: string
+          format: date
+        description: 'Data di fine intervallo (formato: YYYY-MM-DD)'
+      responses:
+        '200':
+          description: Risposta di successo
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Evento'
+components:
+  schemas:
+    Status:
+      type: object
+      properties:
+        status:
+          type: string
+    Eventi:
+      type: object
+      properties:
+        articles:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+                format: int32
+                description: ID oggetto
+              title:
+                type: string
+                description: Titolo modulo
+              description:
+                type: string
+                description: Descrizione modulo
+              url:
+                type: string
+                description: Indirizzo del modulo
+              start_event_date:
+                type: string
+                format: date
+                description: Datetime inizio evento
+              end_event_date:
+                type: string
+                format: date
+                description: Datetime completa fine evento
+              event_location:
+                type: string
+                description: Luogo evento
+    Evento:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        nome:
+          type: string
+        descrizione:
+          type: string
+        dataInizio:
+          type: string
+          format: date-time
+        dataFine:
+          type: string
+          format: date-time
+      required:
+      - id
+      - nome
+      - dataInizio
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: "Implementazione conforme ad RFC8725. Contiene il JWT recuperato\
+        \ da PDND interoperabilit\xE0 applicando le Linee Guida sull'infrastruttura\
+        \ tecnologica della Piattaforma Digitale Nazionale Dati per l'interoperabilit\xE0\
+        \ dei sistemi informativi e delle basi di dati ai sensi dell'articolo 50-ter,\
+        \ comma 2 del CAD"
+security:
+- bearerAuth: []

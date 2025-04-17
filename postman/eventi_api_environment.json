@@ -1,0 +1,33 @@
+{
+	"id": "d8a1e5f3-5c7b-2c4e-9a9c-f8d6e7c5b4a3",
+	"name": "API Eventi - Ambiente",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "jwt_token",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0X3VzZXIiLCJpc3MiOiJQRE5EIiwiYXVkIjoiaHR0cHM6Ly9nb3Z3YXkucHVibGlzeXMuaXQvZ292d2F5L0NvbXVuZVZpbGxhZGlicmlhbm8vRXZlbnRpL3YxIiwiaWF0IjoxNjE5MDIzMjAwLCJuYmYiOjE2MTkwMjMyMDAsImV4cCI6MTkxOTAyMzIwMCwianRpIjoiMTIzNDU2Nzg5IiwiY2xpZW50X2lkIjoidGVzdF9jbGllbnQiLCJwdXJwb3NlIjoidGVzdCJ9.Cz1RjS4BO-S4VmIvqVrKrCdOH9X9V8Ow5WCTgIQULXXgGAOc7k9AhQl_-Yv_QKYQf5oBUZYAFZP9jbzuLLGkXdlZKOC9VBOV4c9Tv-PgbWHlRm2Wz9IOblR9QkQjULRgC-LMK2LJpVej0xqHGqAjTYnR3xLnGSEZ-5_QKXD_vXJdpVXeKPTY_5Jn7Qe1JtFqVPwvXC9S9ypSE9ULGBTuZODUsjOH1K7ZIafg1TN-3DGGCnWZDa-4Z8UxU4hTJQMm_slAOV_KYAhP-8xNaS1lOtvKSTjQfJqP-KaQxwJ5R4-5QCnCQfQRBmMl9VVJ7glnrghIEWwcmjGpGYshRQnQXw",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "expired_token",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0X3VzZXIiLCJpc3MiOiJQRE5EIiwiYXVkIjoiaHR0cHM6Ly9nb3Z3YXkucHVibGlzeXMuaXQvZ292d2F5L0NvbXVuZVZpbGxhZGlicmlhbm8vRXZlbnRpL3YxIiwiaWF0IjoxNjE5MDIzMjAwLCJuYmYiOjE2MTkwMjMyMDAsImV4cCI6MTYxOTAyMzIwMCwianRpIjoiMTIzNDU2Nzg5IiwiY2xpZW50X2lkIjoidGVzdF9jbGllbnQiLCJwdXJwb3NlIjoidGVzdCJ9.Cz1RjS4BO-S4VmIvqVrKrCdOH9X9V8Ow5WCTgIQULXXgGAOc7k9AhQl_-Yv_QKYQf5oBUZYAFZP9jbzuLLGkXdlZKOC9VBOV4c9Tv-PgbWHlRm2Wz9IOblR9QkQjULRgC-LMK2LJpVej0xqHGqAjTYnR3xLnGSEZ-5_QKXD_vXJdpVXeKPTY_5Jn7Qe1JtFqVPwvXC9S9ypSE9ULGBTuZODUsjOH1K7ZIafg1TN-3DGGCnWZDa-4Z8UxU4hTJQMm_slAOV_KYAhP-8xNaS1lOtvKSTjQfJqP-KaQxwJ5R4-5QCnCQfQRBmMl9VVJ7glnrghIEWwcmjGpGYshRQnQXw",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "prod_url",
+			"value": "https://govway.publisys.it/govway/ComuneVilladibriano/Eventi/v1",
+			"type": "default",
+			"enabled": false
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-04-17T13:20:40.000Z",
+	"_postman_exported_using": "Postman/10.15.0"
+}

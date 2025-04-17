@@ -1,0 +1,176 @@
+{
+  "eventi": [
+    {
+      "id": 1,
+      "nome": "Festival del Cinema di Matera",
+      "descrizione": "Festival internazionale del cinema che si svolge nella città dei Sassi. Un'occasione unica per scoprire nuovi talenti cinematografici e godere di proiezioni in location suggestive.",
+      "dataInizio": "2025-06-15T18:00:00",
+      "dataFine": "2025-06-22T23:00:00",
+      "luogo": "Matera, Piazza San Pietro Caveoso"
+    },
+    {
+      "id": 2,
+      "nome": "Sagra della Castagna di Melfi",
+      "descrizione": "Tradizionale sagra dedicata alla castagna e ai prodotti tipici del Vulture. Durante l'evento si potranno degustare piatti a base di castagne e altri prodotti locali.",
+      "dataInizio": "2025-10-25T10:00:00",
+      "dataFine": "2025-10-27T22:00:00",
+      "luogo": "Melfi, Centro Storico"
+    },
+    {
+      "id": 3,
+      "nome": "Festa della Madonna della Bruna",
+      "descrizione": "Antica festa patronale di Matera che si celebra ogni 2 luglio. L'evento culmina con la distruzione del carro trionfale in cartapesta che trasporta l'effige della Madonna.",
+      "dataInizio": "2025-07-02T08:00:00",
+      "dataFine": "2025-07-02T23:59:00",
+      "luogo": "Matera, Cattedrale e centro storico"
+    },
+    {
+      "id": 4,
+      "nome": "Carnevale di Montescaglioso",
+      "descrizione": "Uno dei carnevali più antichi della Basilicata con le tradizionali maschere delle 'vacche' e del 'toro'.",
+      "dataInizio": "2025-02-15T15:00:00",
+      "dataFine": "2025-02-17T23:00:00",
+      "luogo": "Montescaglioso, Piazza Roma"
+    },
+    {
+      "id": 5,
+      "nome": "Mostra Mercato del Tartufo di Marsicovetere",
+      "descrizione": "Evento gastronomico dedicato al tartufo lucano e ai prodotti tipici della Val d'Agri.",
+      "dataInizio": "2025-11-08T09:00:00",
+      "dataFine": "2025-11-10T19:00:00",
+      "luogo": "Marsicovetere, Villa d'Agri"
+    },
+    {
+      "id": 6,
+      "nome": "Festival della Paesologia di Aliano",
+      "descrizione": "Festival culturale che esplora il rapporto tra uomo e paesaggio nei luoghi descritti da Carlo Levi in 'Cristo si è fermato a Eboli'.",
+      "dataInizio": "2025-08-20T17:00:00",
+      "dataFine": "2025-08-23T23:30:00",
+      "luogo": "Aliano, Centro Storico"
+    },
+    {
+      "id": 7,
+      "nome": "Pollino Music Festival",
+      "descrizione": "Festival musicale che si svolge nel cuore del Parco Nazionale del Pollino con artisti nazionali e internazionali.",
+      "dataInizio": "2025-07-25T18:00:00",
+      "dataFine": "2025-07-27T01:00:00",
+      "luogo": "San Severino Lucano, Area Naturale"
+    },
+    {
+      "id": 8,
+      "nome": "Festa dell'Olio di Montemurro",
+      "descrizione": "Manifestazione dedicata all'olio extravergine d'oliva della Val d'Agri con degustazioni, laboratori e visite ai frantoi.",
+      "dataInizio": "2025-12-05T10:00:00",
+      "dataFine": "2025-12-07T20:00:00",
+      "luogo": "Montemurro, Piazza Garibaldi"
+    },
+    {
+      "id": 9,
+      "nome": "Maratea Film Festival",
+      "descrizione": "Festival cinematografico che si svolge nella perla del Tirreno con proiezioni, incontri con registi e attori.",
+      "dataInizio": "2025-07-30T19:00:00",
+      "dataFine": "2025-08-03T23:00:00",
+      "luogo": "Maratea, Porto Turistico"
+    },
+    {
+      "id": 10,
+      "nome": "Festa del Maggio di Accettura",
+      "descrizione": "Antico rito arboreo che celebra il matrimonio tra due alberi: il 'Maggio' (cerro) e la 'Cima' (agrifoglio).",
+      "dataInizio": "2025-05-25T09:00:00",
+      "dataFine": "2025-05-27T23:00:00",
+      "luogo": "Accettura, Centro Storico"
+    }
+  ],
+  "eventi_base": [
+    {
+      "id": 1,
+      "title": "Festival del Cinema di Matera",
+      "description": "Festival internazionale del cinema che si svolge nella città dei Sassi",
+      "url": "https://www.comune.matera.it/eventi/festival-cinema",
+      "start_event_date": "2025-06-15",
+      "end_event_date": "2025-06-22",
+      "event_location": "Matera, Piazza San Pietro Caveoso"
+    },
+    {
+      "id": 2,
+      "title": "Sagra della Castagna di Melfi",
+      "description": "Tradizionale sagra dedicata alla castagna e ai prodotti tipici del Vulture",
+      "url": "https://www.comune.melfi.it/eventi/sagra-castagna",
+      "start_event_date": "2025-10-25",
+      "end_event_date": "2025-10-27",
+      "event_location": "Melfi, Centro Storico"
+    },
+    {
+      "id": 3,
+      "title": "Festa della Madonna della Bruna",
+      "description": "Antica festa patronale di Matera che si celebra ogni 2 luglio",
+      "url": "https://www.comune.matera.it/eventi/madonna-bruna",
+      "start_event_date": "2025-07-02",
+      "end_event_date": "2025-07-02",
+      "event_location": "Matera, Cattedrale e centro storico"
+    },
+    {
+      "id": 4,
+      "title": "Carnevale di Montescaglioso",
+      "description": "Uno dei carnevali più antichi della Basilicata",
+      "url": "https://www.comune.montescaglioso.mt.it/eventi/carnevale",
+      "start_event_date": "2025-02-15",
+      "end_event_date": "2025-02-17",
+      "event_location": "Montescaglioso, Piazza Roma"
+    },
+    {
+      "id": 5,
+      "title": "Mostra Mercato del Tartufo di Marsicovetere",
+      "description": "Evento gastronomico dedicato al tartufo lucano",
+      "url": "https://www.comune.marsicovetere.pz.it/eventi/mostra-tartufo",
+      "start_event_date": "2025-11-08",
+      "end_event_date": "2025-11-10",
+      "event_location": "Marsicovetere, Villa d'Agri"
+    },
+    {
+      "id": 6,
+      "title": "Festival della Paesologia di Aliano",
+      "description": "Festival culturale nei luoghi descritti da Carlo Levi",
+      "url": "https://www.comune.aliano.mt.it/eventi/festival-paesologia",
+      "start_event_date": "2025-08-20",
+      "end_event_date": "2025-08-23",
+      "event_location": "Aliano, Centro Storico"
+    },
+    {
+      "id": 7,
+      "title": "Pollino Music Festival",
+      "description": "Festival musicale nel Parco Nazionale del Pollino",
+      "url": "https://www.comune.sanseverinolucano.pz.it/eventi/pollino-music",
+      "start_event_date": "2025-07-25",
+      "end_event_date": "2025-07-27",
+      "event_location": "San Severino Lucano, Area Naturale"
+    },
+    {
+      "id": 8,
+      "title": "Festa dell'Olio di Montemurro",
+      "description": "Manifestazione dedicata all'olio extravergine d'oliva della Val d'Agri",
+      "url": "https://www.comune.montemurro.pz.it/eventi/festa-olio",
+      "start_event_date": "2025-12-05",
+      "end_event_date": "2025-12-07",
+      "event_location": "Montemurro, Piazza Garibaldi"
+    },
+    {
+      "id": 9,
+      "title": "Maratea Film Festival",
+      "description": "Festival cinematografico nella perla del Tirreno",
+      "url": "https://www.comune.maratea.pz.it/eventi/film-festival",
+      "start_event_date": "2025-07-30",
+      "end_event_date": "2025-08-03",
+      "event_location": "Maratea, Porto Turistico"
+    },
+    {
+      "id": 10,
+      "title": "Festa del Maggio di Accettura",
+      "description": "Antico rito arboreo che celebra il matrimonio tra due alberi",
+      "url": "https://www.comune.accettura.mt.it/eventi/festa-maggio",
+      "start_event_date": "2025-05-25",
+      "end_event_date": "2025-05-27",
+      "event_location": "Accettura, Centro Storico"
+    }
+  ]
+}
